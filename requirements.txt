@@ -1,0 +1,12 @@
+langchain
+langchain-groq
+langchain-google-genai
+langchain-mistralai
+langchain-openai
+langgraph
+python-dotenv
+pydantic
+pytest
+fastapi
+uvicorn
+jinja2

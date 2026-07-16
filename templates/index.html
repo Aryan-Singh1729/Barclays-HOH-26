@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'components/head.html' %}
+<body class="m-0 p-0 font-sans bg-slate-50 text-slate-800 h-screen flex flex-col overflow-hidden">
+
+    {% include 'components/header.html' %}
+
+    <!-- Main Content -->
+    <main class="flex flex-1 overflow-hidden relative">
+        {% include 'components/left_panel.html' %}
+        {% include 'components/right_panel.html' %}
+    </main>
+
+    {% include 'components/evidence_drawer.html' %}
+
+    <script>
+        {% include 'components/js/state.js' %}
+        {% include 'components/js/drawer.js' %}
+        {% include 'components/js/alerts.js' %}
+        {% include 'components/js/ui_helpers.js' %}
+        {% include 'components/js/stream_renderers.js' %}
+        {% include 'components/js/sse.js' %}
+        {% include 'components/js/main.js' %}
+    </script>
+</body>
+</html>
